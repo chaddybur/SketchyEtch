@@ -1,0 +1,77 @@
+/*  COLOR PALETTE
+    ---
+    RED: #FF5E5B
+    GREY: #D8D8D8
+    CREAM: #FFFFEA
+    LIGHT BLUE: #78CCCB
+    YELLOW: #FFED66  */
+
+
+body{
+    background-color: #78CCCB;
+}
+
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #container {
+    display: grid;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    background-color: lightgray;
+  }
+  
+  .grid-item {
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+.etch{
+    background-color: #FF5E5B;
+    padding: 10%;
+    border-radius: 10%;
+}
+#sketch{
+    display: flex;
+    justify-content: center;
+    font-size: 500%;
+    color: #FFED66;
+    margin-top: -1em;
+    text-shadow: 5px 5px black;
+}
+
+body button{
+    background-color: #FFED66;
+    color: #FF5E5B;
+    font-size: large;
+    width: 10em;
+    height: 3em;
+    justify-content: center;
+    text-align: center;
+    font-family:monospace;
+    font-weight: bolder;
+    text-shadow: 1px 1px #78CCCB;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul button{
+    margin: 0 3em;
+}
+
+ol{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+img{
+    width: 9em;
+    height: 7em;
+}
